@@ -1,11 +1,11 @@
 # Spécifiez une image de base
-FROM node:14-alpine
+FROM node:18.13
 
 # Créez un répertoire pour le projet
-RUN mkdir -p /usr/src/app
+RUN mkdir -p /usr/src/frontend
 
 # Définissez le répertoire de travail
-WORKDIR /usr/src/app
+WORKDIR /usr/src/frontend
 
 # Copiez les fichiers du projet dans le répertoire du container
 COPY . .

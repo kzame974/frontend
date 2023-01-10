@@ -1,6 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import {Router} from "./src/chore/Router";
+import { StyleSheet, View } from 'react-native';
 import HeaderBody from "./src/components/container/headerBody";
 import FooterBody from "./src/components/container/footerBody";
 import Recipe from "./src/pages/recipe";
